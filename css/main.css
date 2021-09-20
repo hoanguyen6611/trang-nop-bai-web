@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logoclc {
+    width: 120px;
+    height: 120px;
+    float: right;
+}
+.logoute {
+    float: left;
+    margin-right: 50px;
+}
+
+.v1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #145fb0;
+    font-weight: 200;
+}
+
+.v2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #145fb0;
+    font-style: initial;
+}
+
+.v3 {
+    font-size: 20px;
+    color: #f9051e;
+}
+
+.if {
+    float: left;
+    margin-top: 20px;
+}
+
+#header {
+    height: 141px;
+    /* position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0; */
+}
+
+#nav > li {
+    display: inline-block;
+}
+
+#nav li  {
+    display: inline-block;
+    position: relative;
+}
+
+#nav > li > a {
+    
+}
+
+#nav li a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 24px;
+    line-height: 51px;
+    display: block;
+}
+
+#nav > li:hover > a {
+    background-color: #ccc;
+    color: #000;
+}
+
+#nav .subnav li:hover a {
+    color: blue;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color:#fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav li:hover .subnav  {
+    display: block;
+}
+
+#nav .subnav li {
+    min-width: 150px;
+}
+
+#nav .subnav li a {
+    color: #000;
+    height: 46px;
+    padding: 2px 13px;
+}
+
+#slider {
+    margin-top: 138px;
+    padding-top:70% ;
+    background: url(/img/hinh-anh-ky-yeu-dh-spkt-23-1.jpg) top center / cover no-repeat;
+}
+
+#content {
+    margin: 50px 0;
+    background-color: #ccc;
+}
+
+.ver1, .member-list {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#content .list-member {
+    margin-left: 347px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#content .list-member li {
+    margin-bottom: 25px;
+}
+
+.project {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#content .link-web {
+    text-decoration: none;
+    color: #000;
+}
+
+#footer .by {
+    font-style: italic;
+    text-align: left;
+}
+
+
+
