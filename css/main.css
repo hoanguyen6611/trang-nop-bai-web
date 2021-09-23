@@ -115,7 +115,7 @@ html {
 #slider {
     margin-top: 138px;
     padding-top:70% ;
-    background: url(/img/hinh-anh-ky-yeu-dh-spkt-23-1.jpg) top center / cover no-repeat;
+    background: url("/img/content.jpg") top center / cover no-repeat;
 }
 
 #content {
